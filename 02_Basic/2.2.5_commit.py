@@ -13,3 +13,18 @@ class A:
 x = A()
 x.funX()
 #x.funY()
+
+
+
+def compareNum(num1, num2):
+    if (num1 > num2):
+        return str(num1) + " > " + str(num2)
+    elif (num1 < num2):
+        return str(num1) + " < " + str(num2)
+    elif (num1 == num2):
+        return str(num1) + " = " + str(num2)
+    else:
+        return ""
+
+
+
